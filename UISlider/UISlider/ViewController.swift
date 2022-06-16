@@ -5,7 +5,6 @@ class ViewController: UIViewController {
     @IBOutlet var numberLabel: UILabel!
     @IBOutlet var numberSlider: UISlider! {
         didSet {
-            //この項目は全てStoryboardで設定できます。書かなくても実行可能です。
             numberSlider.minimumValue = 0
             numberSlider.maximumValue = 50
             numberSlider.minimumTrackTintColor = UIColor.cyan
@@ -21,6 +20,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didChangeSliderValue(_ slider: UISlider) {
+        //関連付けするactionはValue Changed
         numberLabel.text = String(slider.value)
     }
 }
