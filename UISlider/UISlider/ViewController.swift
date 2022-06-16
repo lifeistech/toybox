@@ -19,9 +19,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func didChangeSliderValue(_ slider: UISlider) {
+    @IBAction func didChangeSliderValue() {
         //関連付けするactionはValue Changed
-        numberLabel.text = String(slider.value)
+        numberLabel.text = String(numberSlider.value)
     }
 }
 
