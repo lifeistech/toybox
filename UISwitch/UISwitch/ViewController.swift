@@ -13,8 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func didTapSwitch(_ sender: UISwitch) {
-        if sender.isOn {
+    @IBAction func didTapSwitch() {
+        //関連付けするactionはValue Changed
+        if lightSwitch.isOn {
             lightImageView.image = UIImage(systemName: "lightbulb.fill")
             lightImageView.tintColor = .systemYellow
         } else {
@@ -23,3 +24,4 @@ class ViewController: UIViewController {
         }
     }
 }
+
