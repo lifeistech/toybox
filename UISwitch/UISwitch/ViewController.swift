@@ -1,19 +1,25 @@
-//
-//  ViewController.swift
-//  UISwitch
-//
-//  Created by Yamaguchi Kyoya on 2022/06/16.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var lightImageView: UIImageView!
+    @IBOutlet var lightSwitch: UISwitch! {
+        didSet {
+            lightSwitch.setOn(false, animated: false)
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func didTapSwitch(_ sender: UISwitch) {
+        if sender.isOn {
+            lightImageView.image = UIImage(systemName: "lightbulb.fill")
+            lightImageView.tintColor = .systemYellow
+        } else {
+            lightImageView.image = UIImage(systemName: "lightbulb")
+            lightImageView.tintColor = .lightGray
+        }
+    }
 }
-
