@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func didSelectSegment(_ sender: UISegmentedControl) {
-        emojiLabel.text = sender.titleForSegment(at: sender.selectedSegmentIndex)
+    @IBAction func didSelectSegment() {
+        //関連付けするactionはValue Changed
+        emojiLabel.text = emojiSegment.titleForSegment(at: emojiSegment.selectedSegmentIndex)
     }
 }
+
