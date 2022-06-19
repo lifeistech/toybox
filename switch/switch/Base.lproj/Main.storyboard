@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21179.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LZQ-oY-yeG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21169.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="eH6-Zt-T0K">
+            <objects>
+                <viewController id="LZQ-oY-yeG" customClass="ViewController" customModule="switch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="phh-wA-iXf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="NuV-g2-oLf">
+                                <rect key="frame" x="107" y="432.5" width="200" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="wqP-9N-PME"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                                <connections>
+                                    <action selector="didSelectSegment" destination="LZQ-oY-yeG" eventType="valueChanged" id="kPd-Dz-je1"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KdK-xU-tPu">
+                                <rect key="frame" x="157" y="212.5" width="100" height="100"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="3IT-rv-FyD"/>
+                                    <constraint firstAttribute="width" constant="100" id="fbF-70-g2V"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Eue-Rl-NIX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NuV-g2-oLf" firstAttribute="centerY" secondItem="phh-wA-iXf" secondAttribute="centerY" id="4qx-Oi-b6c"/>
+                            <constraint firstItem="NuV-g2-oLf" firstAttribute="top" secondItem="KdK-xU-tPu" secondAttribute="bottom" constant="120" id="C1Y-7i-aMF"/>
+                            <constraint firstItem="NuV-g2-oLf" firstAttribute="centerX" secondItem="phh-wA-iXf" secondAttribute="centerX" id="Ekp-Y6-bkD"/>
+                            <constraint firstItem="KdK-xU-tPu" firstAttribute="centerX" secondItem="phh-wA-iXf" secondAttribute="centerX" id="Zhb-dl-f2W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="deviceIcon" destination="KdK-xU-tPu" id="nrg-QN-j1f"/>
+                        <outlet property="deviceSegment" destination="NuV-g2-oLf" id="Zc5-Wh-aRc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mee-6h-7eU" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
