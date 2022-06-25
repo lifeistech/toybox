@@ -13,6 +13,7 @@
 		77DF6CDC2867A0DA00F69949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6CDA2867A0DA00F69949 /* Main.storyboard */; };
 		77DF6CDE2867A0DA00F69949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6CDD2867A0DA00F69949 /* Assets.xcassets */; };
 		77DF6CE12867A0DA00F69949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6CDF2867A0DA00F69949 /* LaunchScreen.storyboard */; };
+		77DF6CEB2867A47300F69949 /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DF6CEA2867A47300F69949 /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77DF6CDD2867A0DA00F69949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77DF6CE02867A0DA00F69949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77DF6CE22867A0DA00F69949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DF6CEA2867A47300F69949 /* MemoData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				77DF6CD42867A0DA00F69949 /* AppDelegate.swift */,
 				77DF6CD62867A0DA00F69949 /* SceneDelegate.swift */,
 				77DF6CD82867A0DA00F69949 /* ViewController.swift */,
+				77DF6CEA2867A47300F69949 /* MemoData.swift */,
 				77DF6CDA2867A0DA00F69949 /* Main.storyboard */,
 				77DF6CDD2867A0DA00F69949 /* Assets.xcassets */,
 				77DF6CDF2867A0DA00F69949 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77DF6CD92867A0DA00F69949 /* ViewController.swift in Sources */,
+				77DF6CEB2867A47300F69949 /* MemoData.swift in Sources */,
 				77DF6CD52867A0DA00F69949 /* AppDelegate.swift in Sources */,
 				77DF6CD72867A0DA00F69949 /* SceneDelegate.swift in Sources */,
 			);
