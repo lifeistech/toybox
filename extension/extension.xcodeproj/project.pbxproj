@@ -13,6 +13,8 @@
 		77DF6C592867896B00F69949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6C572867896B00F69949 /* Main.storyboard */; };
 		77DF6C5B2867896C00F69949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6C5A2867896C00F69949 /* Assets.xcassets */; };
 		77DF6C5E2867896C00F69949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DF6C5C2867896C00F69949 /* LaunchScreen.storyboard */; };
+		77DF6C6628678B0500F69949 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DF6C6528678B0500F69949 /* UIViewExtension.swift */; };
+		77DF6C6828678CD000F69949 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DF6C6728678CD000F69949 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		77DF6C5A2867896C00F69949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77DF6C5D2867896C00F69949 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77DF6C5F2867896C00F69949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77DF6C6528678B0500F69949 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		77DF6C6728678CD000F69949 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				77DF6C512867896B00F69949 /* AppDelegate.swift */,
 				77DF6C532867896B00F69949 /* SceneDelegate.swift */,
 				77DF6C552867896B00F69949 /* ViewController.swift */,
+				77DF6C6528678B0500F69949 /* UIViewExtension.swift */,
+				77DF6C6728678CD000F69949 /* DateExtension.swift */,
 				77DF6C572867896B00F69949 /* Main.storyboard */,
 				77DF6C5A2867896C00F69949 /* Assets.xcassets */,
 				77DF6C5C2867896C00F69949 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77DF6C562867896B00F69949 /* ViewController.swift in Sources */,
+				77DF6C6828678CD000F69949 /* DateExtension.swift in Sources */,
+				77DF6C6628678B0500F69949 /* UIViewExtension.swift in Sources */,
 				77DF6C522867896B00F69949 /* AppDelegate.swift in Sources */,
 				77DF6C542867896B00F69949 /* SceneDelegate.swift in Sources */,
 			);
