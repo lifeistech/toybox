@@ -1,19 +1,15 @@
-//
-//  ViewController.swift
-//  ColorAsset
-//
-//  Created by Yamaguchi Kyoya on 2022/06/27.
-//
-
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet var themeColorLabel: UILabel! {
+        didSet {
+            themeColorLabel.backgroundColor = UIColor(named: "themeColor")
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
 }
 
