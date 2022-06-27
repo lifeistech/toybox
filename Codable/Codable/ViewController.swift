@@ -19,6 +19,5 @@ class ViewController: UIViewController {
             UserDefaults.standard.set(encoded, forKey: "memo")
         }
     }
-    
 }
 
