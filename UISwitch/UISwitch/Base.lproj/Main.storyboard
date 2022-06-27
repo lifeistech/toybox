@@ -19,7 +19,7 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QwH-hV-wlV">
                                 <rect key="frame" x="182.5" y="432.5" width="51" height="31"/>
                                 <connections>
-                                    <action selector="didTapSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="u5w-U3-jAC"/>
+                                    <action selector="didTapSwitch" destination="BYZ-38-t0r" eventType="valueChanged" id="6mw-Nh-czr"/>
                                 </connections>
                             </switch>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightbulb" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="0xl-eF-DG1">
