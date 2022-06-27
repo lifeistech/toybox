@@ -1,0 +1,15 @@
+#  <#Title#>
+
+実装方法
+
+tabBarController追加
+tabbarcontrollerの is initial View Controllerにチェック
+ViewController.swift追加
+storyboardのViewControllerのクラスを設定
+ViewControllerごとにTabbarItemを設定、selectedImage→タブが選択された時のimage、Image→デフォルトのiamge
+
+
+viewControllerを追加する場合
+ViewControllerをstoryboardに追加
+tabbarControllerからctrl押しながらドラッグし、view controllersを選択
+上と同じように設定
