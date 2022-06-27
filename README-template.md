@@ -8,7 +8,7 @@
 - 使われているアプリの例
 
 ## 前提知識 
-- [タイトル](https://使われている技術へのリンク)
+- [snippet名](https://githubの個別readmeへのリンク)
 
 ## 関連
-- [タイトル](https://関連projectへのリンク)
+- [snippet名](https://githubの個別readmeへのリンク)
