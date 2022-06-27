@@ -1,5 +1,5 @@
-import UIKit
 import AVFoundation
+import UIKit
 
 class ViewController: UIViewController {
     
