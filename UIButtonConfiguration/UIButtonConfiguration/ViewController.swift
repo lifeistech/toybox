@@ -6,7 +6,8 @@ class ViewController: UIViewController {
         didSet {
             var configuration = UIButton.Configuration.gray()
             configuration.title = "編集する"
-            configuration.image = UIImage(systemName: "square.and.pencil", withConfiguration: UIImage.SymbolConfiguration(scale: .default))
+            let symbolConfiguration = UIImage.SymbolConfiguration(scale: .default)
+            configuration.image = UIImage(systemName: "square.and.pencil", withConfiguration: symbolConfiguration)
             configuration.cornerStyle = .capsule
             configuration.imagePlacement = .trailing
             configuration.imagePadding = 8
