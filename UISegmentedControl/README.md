@@ -1,6 +1,6 @@
 # UISegmentedControl
 <!-- GIF -->
-![UISegmentedControl](https://user-images.githubusercontent.com/47821463/176352972-657b9104-b54a-4cfb-8f6a-9993a8162ed9.gif)
+<img src="UISegmentedControl.gif" width="300px">
 
 ## 概要
 UISegmentedControlとは何か
