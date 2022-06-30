@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="UJo-BU-aQp">
-                                <rect key="frame" x="69" y="811" width="276.5" height="31"/>
+                                <rect key="frame" x="20" y="811" width="374" height="31"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7k3-oj-aVn">
                                         <rect key="frame" x="0.0" y="0.0" width="81.5" height="31"/>
@@ -32,8 +32,16 @@
                                             <action selector="goDown" destination="BYZ-38-t0r" eventType="touchUpInside" id="KpY-j1-21d"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtD-aq-M8s">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jkm-jV-voT">
                                         <rect key="frame" x="97.5" y="0.0" width="81.5" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="上に移動"/>
+                                        <connections>
+                                            <action selector="goUpWithEaseOut" destination="BYZ-38-t0r" eventType="touchUpInside" id="j5d-h4-sLq"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DtD-aq-M8s">
+                                        <rect key="frame" x="195" y="0.0" width="81.5" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="回転"/>
                                         <connections>
@@ -41,7 +49,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDq-Uk-ANv">
-                                        <rect key="frame" x="195" y="0.0" width="81.5" height="31"/>
+                                        <rect key="frame" x="292.5" y="0.0" width="81.5" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="点滅"/>
                                         <connections>
@@ -54,7 +62,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UJo-BU-aQp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6I7-xV-r4k"/>
+                            <constraint firstItem="UJo-BU-aQp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Bwg-ro-9QE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UJo-BU-aQp" secondAttribute="trailing" constant="20" id="GtM-v3-HWJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UJo-BU-aQp" secondAttribute="bottom" constant="20" id="PIx-84-5GA"/>
                         </constraints>
                     </view>

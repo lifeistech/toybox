@@ -10,7 +10,13 @@ class ViewController: UIViewController {
     
     @IBAction func goDown() {
         UIView.animate(withDuration: 1, delay: 0) {
-            self.animationView.center.y += 50
+            self.animationView.center.y += 100
+        }
+    }
+    
+    @IBAction func goUpWithEaseOut() {
+        UIView.animate(withDuration: 1, delay: 0, options: .curveEaseOut) {
+            self.animationView.center.y -= 100
         }
     }
     
