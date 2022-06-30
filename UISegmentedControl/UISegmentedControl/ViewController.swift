@@ -8,8 +8,9 @@ class ViewController: UIViewController {
             //セグメントのタイトルを追加
             emojiSegmentedControl.setTitle("📱", forSegmentAt: 0)
             emojiSegmentedControl.setTitle("💻", forSegmentAt: 1)
-            //指定した位置にセグメントを動的に追加
+            //Storyboard上に2つしかセグメントがない状態で3つ目にsetTitleしてもエラーが出てしまうので、insertSegmentして要素を1つ追加する
             emojiSegmentedControl.insertSegment(withTitle: "⌚️", at: 2, animated: false)
+            //最初に選択されているセグメントを決める
             emojiSegmentedControl.selectedSegmentIndex = 1
         }
     }
