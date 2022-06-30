@@ -47,7 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="emojiLabel" destination="5ZP-ge-DVR" id="1fP-QP-qcM"/>
-                        <outlet property="emojiSegment" destination="JaW-cq-NUT" id="OxN-UW-yJe"/>
+                        <outlet property="emojiSegmentedControl" destination="JaW-cq-NUT" id="nIw-Gn-RvW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
