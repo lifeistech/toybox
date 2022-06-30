@@ -9,21 +9,21 @@ class ViewController: UIViewController {
     }
     
     @IBAction func goDown() {
-        UIView.animate(withDuration: 1, delay: 0, animations: {
+        UIView.animate(withDuration: 1, delay: 0) {
             self.animationView.center.y += 50
-        }, completion: nil)
+        }
     }
     
     @IBAction func rotate() {
-        UIView.animate(withDuration: 1, delay: 0, animations: {
+        UIView.animate(withDuration: 1, delay: 0) {
             self.animationView.transform = CGAffineTransform(rotationAngle: .pi)
-        }, completion: nil)
+        }
     }
     
     @IBAction func blink() {
-        UIView.animate(withDuration: 0.5, delay: 0, options: [.autoreverse, .repeat], animations: {
+        UIView.animate(withDuration: 0.5, delay: 0, options: [.autoreverse, .repeat]) {
             self.animationView.alpha = 0
-        }, completion: nil)
+        }
     }
 }
 
