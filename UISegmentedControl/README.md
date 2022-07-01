@@ -3,7 +3,6 @@
 <img src="UISegmentedControl.gif" width="300px">
 
 ## 概要
-UISegmentedControlとは何か
 UISegmentedControlはいくつかの選択肢の中から1つだけを必ず選ばせたい時に使用します。要素にはテキストと画像のどちらかを表示することができます。水平方向に配置されているので真下に大きなViewを置いて切り替える時などはとても便利です。
 
 ## どう使われているか
