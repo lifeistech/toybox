@@ -3,12 +3,15 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet var emojiLabel: UILabel!
-    @IBOutlet var emojiSegment: UISegmentedControl! {
+    @IBOutlet var emojiSegmentedControl: UISegmentedControl! {
         didSet {
-            emojiSegment.setTitle("📱", forSegmentAt: 0)
-            emojiSegment.setTitle("💻", forSegmentAt: 1)
-            emojiSegment.insertSegment(withTitle: "⌚️", at: 2, animated: false)
-            emojiSegment.selectedSegmentIndex = 1
+            //セグメントのタイトルを追加
+            emojiSegmentedControl.setTitle("📱", forSegmentAt: 0)
+            emojiSegmentedControl.setTitle("💻", forSegmentAt: 1)
+            //Storyboard上に2つしかセグメントがない状態で3つ目にsetTitleしてもエラーが出てしまうので、insertSegmentして要素を1つ追加する
+            emojiSegmentedControl.insertSegment(withTitle: "⌚️", at: 2, animated: false)
+            //最初に選択されているセグメントを決める
+            emojiSegmentedControl.selectedSegmentIndex = 1
         }
     }
 
@@ -18,7 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func didSelectSegment() {
         //関連付けするactionはValue Changed
-        emojiLabel.text = emojiSegment.titleForSegment(at: emojiSegment.selectedSegmentIndex)
+        emojiLabel.text = emojiSegmentedControl.titleForSegment(at: emojiSegmentedControl.selectedSegmentIndex)
     }
 }
 

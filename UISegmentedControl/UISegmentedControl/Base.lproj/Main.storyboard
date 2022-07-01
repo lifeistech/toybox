@@ -26,7 +26,7 @@
                                     <segment title="Second"/>
                                 </segments>
                                 <connections>
-                                    <action selector="didSelectSegment:" destination="BYZ-38-t0r" eventType="valueChanged" id="Gg3-hL-bVZ"/>
+                                    <action selector="didSelectSegment" destination="BYZ-38-t0r" eventType="valueChanged" id="90w-Nh-8y2"/>
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="emoji" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZP-ge-DVR">
@@ -47,7 +47,7 @@
                     </view>
                     <connections>
                         <outlet property="emojiLabel" destination="5ZP-ge-DVR" id="1fP-QP-qcM"/>
-                        <outlet property="emojiSegment" destination="JaW-cq-NUT" id="OxN-UW-yJe"/>
+                        <outlet property="emojiSegmentedControl" destination="JaW-cq-NUT" id="nIw-Gn-RvW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
