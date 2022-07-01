@@ -2,13 +2,15 @@
 <!-- GIF -->
 
 ## 概要
-{プロジェクト名}とは何か
+{プロジェクト名}とは何かを書く
 
 ## どう使われているか
-- 使われているアプリの例
+- 使われているアプリの例1
+- 使われているアプリの例2
+- 使われているアプリの例3
 
 ## 前提知識 
-- [snippet名](https://githubの個別readmeへのリンク)
+- [toy名](https://githubの個別readmeへのリンク)
 
 ## 関連
-- [snippet名](https://githubの個別readmeへのリンク)
+- [toy名](https://githubの個別readmeへのリンク)
