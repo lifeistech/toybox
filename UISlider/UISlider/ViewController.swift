@@ -5,6 +5,7 @@ class ViewController: UIViewController {
     @IBOutlet var numberLabel: UILabel!
     @IBOutlet var numberSlider: UISlider! {
         didSet {
+            //Sliderの設定
             numberSlider.minimumValue = 0
             numberSlider.maximumValue = 50
             numberSlider.minimumTrackTintColor = UIColor.cyan
