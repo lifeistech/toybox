@@ -14,6 +14,7 @@
 		77313C532869B62700A39FE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77313C522869B62700A39FE2 /* Assets.xcassets */; };
 		77313C562869B62700A39FE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77313C542869B62700A39FE2 /* LaunchScreen.storyboard */; };
 		7782F78C286DD27600844F25 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782F78B286DD27600844F25 /* Weather.swift */; };
+		B44EBDF528708E13008C3DAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B44EBDF428708E13008C3DAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		77313C552869B62700A39FE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77313C572869B62700A39FE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7782F78B286DD27600844F25 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		B44EBDF428708E13008C3DAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		77313C3D2869B62600A39FE2 = {
 			isa = PBXGroup;
 			children = (
+				B44EBDF428708E13008C3DAC /* README.md */,
 				77313C482869B62600A39FE2 /* UIMenu */,
 				77313C472869B62600A39FE2 /* Products */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				77313C562869B62700A39FE2 /* LaunchScreen.storyboard in Resources */,
 				77313C532869B62700A39FE2 /* Assets.xcassets in Resources */,
+				B44EBDF528708E13008C3DAC /* README.md in Resources */,
 				77313C512869B62600A39FE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
