@@ -4,7 +4,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var editButton: UIButton! {
         didSet {
-            //グレーボタンのコンフィグレーションを定義
+            //グレーボタンのConfigurationを定義
             var configuration = UIButton.Configuration.gray()
             configuration.title = "編集する"
             let symbolConfiguration = UIImage.SymbolConfiguration(scale: .default)
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var searchButton: UIButton! {
         didSet {
-            //ボタンのコンフィグレーションを定義
+            //ボタンのConfigurationを定義
             var configuration = UIButton.Configuration.filled()
             configuration.title = "検索中"
             configuration.imagePlacement = .trailing
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var purchaseButton: UIButton! {
         didSet {
-            //ボタンのコンフィグレーションを定義
+            //ボタンのConfigurationを定義
             var configuration = UIButton.Configuration.filled()
             configuration.title = "購入する"
             configuration.subtitle = "1~2週間でお届け"
