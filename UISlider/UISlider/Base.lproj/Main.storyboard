@@ -28,7 +28,7 @@
                                     <constraint firstAttribute="width" constant="300" id="1ld-nz-77n"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="didChangeSliderValue:" destination="BYZ-38-t0r" eventType="valueChanged" id="992-MX-HIU"/>
+                                    <action selector="didChangeSliderValue" destination="BYZ-38-t0r" eventType="valueChanged" id="kPS-qY-xNP"/>
                                 </connections>
                             </slider>
                         </subviews>
