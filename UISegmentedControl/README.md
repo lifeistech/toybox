@@ -1,5 +1,4 @@
 # UISegmentedControl
-
 ![UISegmentedControl](UISegmentedControl.gif)
 
 ## 概要
