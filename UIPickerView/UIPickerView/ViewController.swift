@@ -11,7 +11,7 @@ class ViewController: UIViewController {
         }
     }
     
-    let deviceList = ["iPhone", "iPad", "MacBook", "Apple Watch", "Apple TV", "Airpods"]
+    let deviceList = ["iPhone", "iPad", "MacBook", "Apple Watch", "Apple TV", "AirPods"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
