@@ -13,6 +13,7 @@
 		77B9653D28713D7B00F52872 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B9653B28713D7B00F52872 /* Main.storyboard */; };
 		77B9653F28713D7C00F52872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B9653E28713D7C00F52872 /* Assets.xcassets */; };
 		77B9654228713D7C00F52872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B9654028713D7C00F52872 /* LaunchScreen.storyboard */; };
+		77B9654A28715CDD00F52872 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B9654928715CDD00F52872 /* NotificationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		77B9653E28713D7C00F52872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77B9654128713D7C00F52872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77B9654328713D7C00F52872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B9654928715CDD00F52872 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				77B9653528713D7B00F52872 /* AppDelegate.swift */,
 				77B9653728713D7B00F52872 /* SceneDelegate.swift */,
 				77B9653928713D7B00F52872 /* ViewController.swift */,
+				77B9654928715CDD00F52872 /* NotificationManager.swift */,
 				77B9653B28713D7B00F52872 /* Main.storyboard */,
 				77B9653E28713D7C00F52872 /* Assets.xcassets */,
 				77B9654028713D7C00F52872 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				77B9653A28713D7B00F52872 /* ViewController.swift in Sources */,
 				77B9653628713D7B00F52872 /* AppDelegate.swift in Sources */,
+				77B9654A28715CDD00F52872 /* NotificationManager.swift in Sources */,
 				77B9653828713D7B00F52872 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
