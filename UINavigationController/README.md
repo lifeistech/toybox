@@ -2,7 +2,7 @@
 ![UINavigationController](UINavigationController.gif)
 
 ## 概要
-UINavigationControllerは、画面遷移を管理するクラスです。NavigationBarや元の画面に戻るBackButtonをカスタマイズすることができます。
+UINavigationControllerは次に進むような画面遷移を実現させるクラスです。同じNavigationBarや戻るボタンを複数のViewControllerにわたって使用できます。
 
 ## どう使われているか
 - 設定アプリの詳細画面
