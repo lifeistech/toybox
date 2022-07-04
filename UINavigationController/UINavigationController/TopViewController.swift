@@ -9,8 +9,8 @@ class TopViewController: UIViewController {
         navigationItem.largeTitleDisplayMode = .never
     }
     
-    //ボタンが押されたときにSegueを実行
     @IBAction func showDetail() {
+        //画面遷移を行う
         performSegue(withIdentifier: "toDetail", sender: nil)
     }
 }
