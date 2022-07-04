@@ -2,12 +2,12 @@
 ![UITabBarController](UITabBarController.gif)
 
 ## 概要
-UITabBarControllerは、複数のViewControllerを管理し、選択によって表示を切り替えることができます。
+UITabBarControllerは、複数のViewControllerを管理し、TabBarのTabの選択によってViewControllerの表示を切り替得ることができます。
 
 ## どう使われているか
-- TwitterのBottomメニュー
-- InstagramのBottomメニュー
-- LINEのBottomメニュー
+- Twitterの画面下部の表示切り替え
+- Instagramの画面下部の表示切り替え
+- LINEの画面下部の表示切り替え
 
 ## 実装方法
 ### TabBarControllerの追加
