@@ -13,4 +13,7 @@ UINavigationControllerは、画面遷移を管理するクラスです。Navigat
 2. Editor → Embed In → NavigationControllerを選択
 3. 2つ目のViewController配置
 4. ctrlドラッグでshowを選択
-5. segueを選択し、identifierを設定
+2. ViewControllerを選択した状態で、上のメニューバーからEditor → Embed In → NavigationControllerを選択
+3. 2つ目のViewControllerを配置
+4. 1つ目のViewControllerを選択した状態で、ctrlを押しながらドラッグして2つ目のViewControllerと繋ぎ、showを選択
+5. 生成されたsegueを選択し、identifierを設定
