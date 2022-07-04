@@ -1,4 +1,4 @@
-# プロジェクト名
+# UINavigationController
 ![UINavigationController](UINavigationController.gif)
 
 ## 概要
