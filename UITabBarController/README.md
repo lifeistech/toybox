@@ -11,12 +11,14 @@ UITabBarControllerは、複数のViewControllerを管理し、選択によって
 
 ## 実装方法
 ### TabBarControllerの追加
-1. TabBarControllerの is initial View Controllerにチェック
-2. ViewController.swift追加
-3. storyboardのViewControllerのクラスを設定
-4. ViewControllerごとにTabbarItemを設定、selectedImage→タブが選択された時のimage、Image→デフォルトのiamge
+1. TabBarControllerの[Is Initial View Controller]にチェック
+2. ViewController.swiftを追加
+3. StoryboardのViewControllerのクラスを設定
+4. ViewControllerごとにTabbarItemを設定
+    - SelectedImage→タブが選択された時のImage
+    - Image→デフォルトのImage
 
-### viewControllerを追加する場合
+### ViewControllerを追加する場合
 1. ViewControllerをstoryboardに追加
 2. TabBarControllerからctrlキーを押しながらドラッグし、view controllersを選択
 3. 上と同じように設定
