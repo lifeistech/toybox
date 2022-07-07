@@ -5,7 +5,6 @@ class ViewController: UIViewController {
     @IBOutlet var titleTextField: UITextField!
     @IBOutlet var contentTextView: UITextView!
     
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         //UserDefaultsに入ってるメモデータを変数に代入。UserDefaultsの中のデータがOptionalなので、if letでnil判定をしてから表示を実行します
@@ -23,4 +22,3 @@ class ViewController: UIViewController {
         }
     }
 }
-
