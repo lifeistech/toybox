@@ -6,7 +6,7 @@ class ViewController: UIViewController {
         didSet {
             //Dateをextensionで定義したString型に変換して表示
             dateLabel.text = Date().toString()
-            //dateLabelにextensionで定義したaddBorderとroundCornerをセット
+            //dateLabelにextensionで定義したaddBorder()とroundCorner()を呼び出す
             dateLabel.addBorder(color: .lightGray, width: 1)
             dateLabel.roundCorner()
         }
