@@ -13,6 +13,7 @@
 		7799CAD42868DE5600E8312D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7799CAD22868DE5600E8312D /* Main.storyboard */; };
 		7799CAD62868DE5700E8312D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7799CAD52868DE5700E8312D /* Assets.xcassets */; };
 		7799CAD92868DE5700E8312D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7799CAD72868DE5700E8312D /* LaunchScreen.storyboard */; };
+		B4A0B65528759B70002F145B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4A0B65428759B70002F145B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7799CAD52868DE5700E8312D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7799CAD82868DE5700E8312D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7799CADA2868DE5700E8312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A0B65428759B70002F145B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		7799CAC02868DE5600E8312D = {
 			isa = PBXGroup;
 			children = (
+				B4A0B65428759B70002F145B /* README.md */,
 				7799CACB2868DE5600E8312D /* animation */,
 				7799CACA2868DE5600E8312D /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				7799CAD92868DE5700E8312D /* LaunchScreen.storyboard in Resources */,
 				7799CAD62868DE5700E8312D /* Assets.xcassets in Resources */,
+				B4A0B65528759B70002F145B /* README.md in Resources */,
 				7799CAD42868DE5600E8312D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
