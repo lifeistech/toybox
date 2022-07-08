@@ -16,13 +16,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    //関連付けするactionはValue Changed
     @IBAction func didSelectSegment() {
-        //関連付けするactionはValue Changed
+        //caseで条件分岐を行う
         switch deviceSegment.selectedSegmentIndex {
+            //selectedSegmentIndexが0のとき
         case 0:
             deviceIcon.image = UIImage(systemName: "iphone")
+            //selectedSegmentIndexが1のとき
         case 1:
             deviceIcon.image = UIImage(systemName: "laptopcomputer")
+            //selectedSegmentIndexが2のとき
         case 2:
             deviceIcon.image = UIImage(systemName: "applewatch")
         default:
