@@ -14,6 +14,7 @@
 		7799CAF62869865100E8312D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7799CAF52869865100E8312D /* Assets.xcassets */; };
 		7799CAF92869865100E8312D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7799CAF72869865100E8312D /* LaunchScreen.storyboard */; };
 		7799CB012869872A00E8312D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7799CB002869872A00E8312D /* ProfileViewController.swift */; };
+		B45E789C2878105E00267E51 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B45E789B2878105E00267E51 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +27,7 @@
 		7799CAF82869865100E8312D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7799CAFA2869865100E8312D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7799CB002869872A00E8312D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		7799CB022869873B00E8312D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B45E789B2878105E00267E51 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +44,7 @@
 		7799CAE02869864F00E8312D = {
 			isa = PBXGroup;
 			children = (
-				7799CB022869873B00E8312D /* README.md */,
+				B45E789B2878105E00267E51 /* README.md */,
 				7799CAEB2869864F00E8312D /* UITabBarController */,
 				7799CAEA2869864F00E8312D /* Products */,
 			);
@@ -132,6 +133,7 @@
 			files = (
 				7799CAF92869865100E8312D /* LaunchScreen.storyboard in Resources */,
 				7799CAF62869865100E8312D /* Assets.xcassets in Resources */,
+				B45E789C2878105E00267E51 /* README.md in Resources */,
 				7799CAF42869864F00E8312D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
