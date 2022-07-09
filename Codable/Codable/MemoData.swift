@@ -1,6 +1,6 @@
 import Foundation
 
-//MemoDataというCodableなClassを定義
+//MemoDataというCodableなstructを定義
 struct MemoData: Codable {
     var title: String
     var content: String
