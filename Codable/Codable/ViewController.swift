@@ -7,7 +7,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //UserDefaultsからデータを呼び出し、saveDataに代入し、そのsaveData(JSON)をCodableを利用してMemoData型に変換しています。データがOptionalなので、if letでnil判定をしてから表示を実行します
+        //UserDefaultsからデータを呼び出し、saveDataに代入する。そのsaveData(JSON)をCodableを利用してMemoData型に変換。
+        //UserDefaultsから取り出すデータ、JSONDecoderからデーコードしたデータが共にOptionalのため、if letでnil判定をしてから表示する
         if let savedData = UserDefaults.standard.data(forKey: "memo"), let decoded = try? JSONDecoder().decode(MemoData.self, from: savedData) {
             titleTextField.text = decoded.title
             contentTextView.text = decoded.content
