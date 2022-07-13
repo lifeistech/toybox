@@ -5,7 +5,7 @@ class ViewController: UIViewController {
     @IBOutlet var dateLabel: UILabel! {
         didSet {
             //Dateをextensionで定義したString型に変換して表示
-            dateLabel.text = Date().toString()
+            dateLabel.text = Date().yearMonthDateFormat
             //dateLabelにextensionで定義したaddBorder()とroundCorner()を呼び出す
             dateLabel.addBorder(color: .lightGray, width: 1)
             dateLabel.roundCorner()
