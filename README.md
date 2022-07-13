@@ -1,34 +1,84 @@
 # toybox
 
-## UISwitch
-[UISwitch](https://github.com/lifeistech/toybox/tree/main/UISwitch)
+## Codable
+[Codable](https://github.com.lifeistech/toybox/tree/main/Codable)
 
-![UISwitch](UISwitch/UISwitch.gif)
+![Codable](Codable/Codable.gif)
+
+## ColorAsset
+[ColorAsset](https://github.com.lifeistech/toybox/tree/main/ColorAsset)
+
+![ColorAsset](ColorAsset/ColorAsset.png)
+
+## SFSymbol
+[SFSymbol](https://github.com.lifeistech/toybox/tree/main/SFSymbol)
+
+![SFSymbol](SFSymbol/SFSymbol.png)
+
+## Speech
+[Speech](https://github.com.lifeistech/toybox/tree/main/Speech)
+
+![Speech](Speech/Speech.png)
 
 ## UIButtonConfiguration
 [UIButtonConfiguration](https://github.com/lifeistech/toybox/tree/main/UIButtonConfiguration)
 
 ![UIButtonConfiguration](UIButtonConfiguration/UIButtonConfiguration.gif)
 
+## UIFont
+[UIFont](https://github.com/lifeistech/toybox/tree/main/UIFont)
+
+![UIFont](UIFont/UIFont.png)
+
 ## UIMenu
 [UIMenu](https://github.com/lifeistech/toybox/tree/main/UIMenu)
 
 ![UIMenu](UIMenu/UIMenu.gif)
+
+## UINavigationController
+[UINavigationController](https://github.com/lifeistech/toybox/tree/main/UINavigationConrtoller)
+
+![UINavigationConrtoller](UINavigationController/UINavigationController.gif)
+
+## UIPickerView
+[UIPickerView](https://github.com/lifeistech/toybox/tree/main/UIPickerView)
+
+![UIPickerView](UIPickerView/UIPickerView.gif)
 
 ## UISegmentedControl
 [UISegmentedControl](https://github.com/lifeistech/toybox/tree/main/UISegmentedControl)
 
 ![UISegmentedControl](UISegmentedControl/UISegmentedControl.gif)
 
-## UIFont
-[UIFont](https://github.com/lifeistech/toybox/tree/main/UIFont)
+## UISlider
+[UISlider](https://github.com/lifeistech/toybox/tree/main/UISlider)
 
-![UIFont](UIFont/UIFont.png)
+![UISlider](UISlider/UISlider.gif)
 
-## UIPickerView
-[UIPickerView](https://github.com/lifeistech/toybox/tree/main/UIPickerView)
+## UISwitch
+[UISwitch](https://github.com/lifeistech/toybox/tree/main/UISwitch)
 
-![UIPickerView](UIPickerView/UIPickerView.gif)
+![UISwitch](UISwitch/UISwitch.gif)
+
+## UITabBarController
+[UITabBarController](https://github.com/lifeistech/toybox/tree/main/UITabBarController)
+
+![UITabBarConrtoller](UITabBarConroller/UITabBarController.gif)
+
+## animation
+[animation](https://github.com/lifeistech/toybox/tree/main/animation)
+
+![animation](animation/animation.gif)
+
+## extension
+[extension](https://github.com/lifeistech/toybox/tree/main/extension)
+
+![extension](extension/extension.gif)
+
+## switch
+[switch](https://github.com/lifeistech/toybox/tree/main/switch)
+
+![switch](switch/switch.gif)
 
 ---------------------------------------
 
