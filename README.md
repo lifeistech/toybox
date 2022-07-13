@@ -1,24 +1,19 @@
 # toybox
 
 ## Codable
-[Codable](https://github.com.lifeistech/toybox/tree/main/Codable)
+[Codable](https://github.com/lifeistech/toybox/tree/main/Codable)
 
 ![Codable](Codable/Codable.gif)
 
 ## ColorAsset
-[ColorAsset](https://github.com.lifeistech/toybox/tree/main/ColorAsset)
+[ColorAsset](https://github.com/lifeistech/toybox/tree/main/ColorAsset)
 
 ![ColorAsset](ColorAsset/ColorAsset.png)
 
 ## SFSymbol
-[SFSymbol](https://github.com.lifeistech/toybox/tree/main/SFSymbol)
+[SFSymbol](https://github.com/lifeistech/toybox/tree/main/SFSymbol)
 
 ![SFSymbol](SFSymbol/SFSymbol.png)
-
-## Speech
-[Speech](https://github.com.lifeistech/toybox/tree/main/Speech)
-
-![Speech](Speech/Speech.png)
 
 ## UIButtonConfiguration
 [UIButtonConfiguration](https://github.com/lifeistech/toybox/tree/main/UIButtonConfiguration)
@@ -63,7 +58,7 @@
 ## UITabBarController
 [UITabBarController](https://github.com/lifeistech/toybox/tree/main/UITabBarController)
 
-![UITabBarConrtoller](UITabBarConroller/UITabBarController.gif)
+![UITabBarConrtoller](UITabBarController/UITabBarController.gif)
 
 ## animation
 [animation](https://github.com/lifeistech/toybox/tree/main/animation)
