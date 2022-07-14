@@ -39,7 +39,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="switchLabel" destination="Zti-pO-vfZ" id="ZJg-zc-Gnj"/>
+                        <outlet property="switchStatusLabel" destination="Zti-pO-vfZ" id="o8s-rc-1bR"/>
                         <outlet property="uiSwitch" destination="IHV-no-azV" id="Gkt-0w-aWa"/>
                     </connections>
                 </viewController>

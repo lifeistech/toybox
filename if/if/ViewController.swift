@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var switchLabel: UILabel!
+    @IBOutlet var switchStatusLabel: UILabel!
     
     @IBOutlet var uiSwitch: UISwitch! {
         didSet {
@@ -25,9 +25,9 @@ class ViewController: UIViewController {
     @IBAction func didTapSwitch() {
         //関連付けするactionはValue Changed
         if uiSwitch.isOn {
-            switchLabel.text = "スイッチがオンです"
+            switchStatusLabel.text = "スイッチがオンです"
         } else {
-            switchLabel.text = "スイッチがオフです"
+            switchStatusLabel.text = "スイッチがオフです"
         }
     }
 
