@@ -17,13 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IHV-no-azV">
-                                <rect key="frame" x="182.5" y="531" width="51" height="31"/>
+                                <rect key="frame" x="182.5" y="581" width="51" height="31"/>
                                 <connections>
                                     <action selector="didTapSwitch" destination="BYZ-38-t0r" eventType="valueChanged" id="kQx-yh-wU0"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zti-pO-vfZ">
-                                <rect key="frame" x="207" y="344" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R87-2l-oqI">
+                                <rect key="frame" x="186" y="294" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -32,13 +38,16 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IHV-no-azV" secondAttribute="bottom" constant="300" id="3nY-EU-P4S"/>
-                            <constraint firstItem="Zti-pO-vfZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="6at-04-udr"/>
+                            <constraint firstItem="Zti-pO-vfZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Azo-bk-HFJ"/>
                             <constraint firstItem="IHV-no-azV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CRm-JY-aDq"/>
+                            <constraint firstItem="R87-2l-oqI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PpZ-Ss-Lq1"/>
                             <constraint firstItem="Zti-pO-vfZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UyS-DA-UKm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IHV-no-azV" secondAttribute="bottom" constant="250" id="a3b-Lx-xKd"/>
+                            <constraint firstItem="R87-2l-oqI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="dC1-sJ-RXS"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="resultLabel" destination="R87-2l-oqI" id="Bg1-y5-U8C"/>
                         <outlet property="switchStatusLabel" destination="Zti-pO-vfZ" id="o8s-rc-1bR"/>
                         <outlet property="uiSwitch" destination="IHV-no-azV" id="Gkt-0w-aWa"/>
                     </connections>
