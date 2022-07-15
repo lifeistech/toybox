@@ -44,7 +44,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapNum2Button" destination="BYZ-38-t0r" eventType="touchUpInside" id="pMj-ax-dWt"/>
+                                    <action selector="num2PlusButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="fUj-Hi-jv6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU6-aE-4GW">
@@ -57,7 +57,7 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="tapNum1Button" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxv-gV-Pl1"/>
+                                    <action selector="num1PlusButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="sKj-Ku-wxw"/>
                                 </connections>
                             </button>
                         </subviews>

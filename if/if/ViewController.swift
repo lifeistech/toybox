@@ -24,9 +24,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        numChanged()
+        checkNumberValue()
     }
 
     @IBAction func switchValueChanged() {
@@ -38,17 +37,17 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func tapNum1Button(){
+    @IBAction func num1PlusButtonTapped(){
         num1 += 1
-        numChanged()
+        checkNumberValue()
     }
     
-    @IBAction func tapNum2Button(){
+    @IBAction func num2PlusButtonTapped(){
         num2 += 1
-        numChanged()
+        checkNumberValue()
     }
     
-    func numChanged(){
+    func checkNumberValue(){
         if num1 >= 10 && num2 >= 10 {
             resultLabel.text = "num1とnum2はどちらも10以上です"
         } else if num1 >= 10 || num2 >= 10 {
