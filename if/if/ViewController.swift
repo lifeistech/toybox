@@ -18,20 +18,15 @@ class ViewController: UIViewController {
     }
     
     @IBOutlet var resultLabel: UILabel!
+    
+    var num1: Int = 0
+    var num2: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let num1: Int = 8
-        let num2: Int = 24
         
-        if num1 >= 10 && num2 >= 10 {
-            resultLabel.text = "num1とnum2はどちらも10以上です"
-        } else if num1 >= 10 || num2 >= 10 {
-            resultLabel.text = "num1かnum2のどちらか一方が10以上です"
-        } else {
-            resultLabel.text = "num1とnum2はどちらも10未満です"
-        }
+        numChanged()
     }
 
     @IBAction func switchValueChanged() {
@@ -40,6 +35,26 @@ class ViewController: UIViewController {
             switchStatusLabel.text = "スイッチがオンです"
         } else {
             switchStatusLabel.text = "スイッチがオフです"
+        }
+    }
+    
+    @IBAction func tapNum1Button(){
+        num1 += 1
+        numChanged()
+    }
+    
+    @IBAction func tapNum2Button(){
+        num2 += 1
+        numChanged()
+    }
+    
+    func numChanged(){
+        if num1 >= 10 && num2 >= 10 {
+            resultLabel.text = "num1とnum2はどちらも10以上です"
+        } else if num1 >= 10 || num2 >= 10 {
+            resultLabel.text = "num1かnum2のどちらか一方が10以上です"
+        } else {
+            resultLabel.text = "num1とnum2はどちらも10未満です"
         }
     }
 }

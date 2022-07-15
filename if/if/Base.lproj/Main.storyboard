@@ -17,33 +17,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IHV-no-azV">
-                                <rect key="frame" x="182.5" y="581" width="51" height="31"/>
+                                <rect key="frame" x="182.5" y="631" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchValueChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="oqE-VY-lhm"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zti-pO-vfZ">
-                                <rect key="frame" x="207" y="448" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207" y="546" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R87-2l-oqI">
-                                <rect key="frame" x="186" y="294" width="42" height="21"/>
+                                <rect key="frame" x="186" y="244" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xx-BO-TwL">
+                                <rect key="frame" x="241" y="344" width="73" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="num2 +">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapNum2Button" destination="BYZ-38-t0r" eventType="touchUpInside" id="pMj-ax-dWt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eU6-aE-4GW">
+                                <rect key="frame" x="100" y="344" width="70.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="num1 +">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </backgroundConfiguration>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="tapNum1Button" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxv-gV-Pl1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Zti-pO-vfZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Azo-bk-HFJ"/>
                             <constraint firstItem="IHV-no-azV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CRm-JY-aDq"/>
+                            <constraint firstItem="eU6-aE-4GW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="HH5-Xy-A7I"/>
                             <constraint firstItem="R87-2l-oqI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PpZ-Ss-Lq1"/>
+                            <constraint firstAttribute="bottom" secondItem="Zti-pO-vfZ" secondAttribute="bottom" constant="350" id="Rii-Wd-Gh2"/>
                             <constraint firstItem="Zti-pO-vfZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UyS-DA-UKm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IHV-no-azV" secondAttribute="bottom" constant="250" id="a3b-Lx-xKd"/>
-                            <constraint firstItem="R87-2l-oqI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="dC1-sJ-RXS"/>
+                            <constraint firstItem="4xx-BO-TwL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="VKY-iu-Zm7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4xx-BO-TwL" secondAttribute="trailing" constant="100" id="ZPT-NY-5zf"/>
+                            <constraint firstItem="eU6-aE-4GW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="300" id="Zdn-dR-KiU"/>
+                            <constraint firstItem="R87-2l-oqI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="Zgh-vA-7iW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IHV-no-azV" secondAttribute="bottom" constant="200" id="oAj-Tc-0PL"/>
                         </constraints>
                     </view>
                     <connections>
@@ -60,6 +90,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
