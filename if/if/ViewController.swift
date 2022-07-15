@@ -32,10 +32,9 @@ class ViewController: UIViewController {
         } else {
             resultLabel.text = "num1とnum2はどちらも10未満です"
         }
-        
     }
 
-    @IBAction func didTapSwitch() {
+    @IBAction func switchValueChanged() {
         //関連付けするactionはValue Changed
         if uiSwitch.isOn {
             switchStatusLabel.text = "スイッチがオンです"
@@ -43,6 +42,4 @@ class ViewController: UIViewController {
             switchStatusLabel.text = "スイッチがオフです"
         }
     }
-
 }
-
