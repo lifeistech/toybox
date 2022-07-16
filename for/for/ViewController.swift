@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         numbers.forEach {
             print($0)
         }
-        
     }
 
 }
