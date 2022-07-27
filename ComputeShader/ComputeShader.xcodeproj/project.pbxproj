@@ -13,6 +13,9 @@
 		BB61A4F928917D3A005F43A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB61A4F728917D3A005F43A1 /* Main.storyboard */; };
 		BB61A4FB28917D3C005F43A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB61A4FA28917D3C005F43A1 /* Assets.xcassets */; };
 		BB61A4FE28917D3C005F43A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB61A4FC28917D3C005F43A1 /* LaunchScreen.storyboard */; };
+		BB61A50628917FC4005F43A1 /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61A50528917FC4005F43A1 /* Renderer.swift */; };
+		BB61A508289180BC005F43A1 /* ShaderCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB61A507289180BC005F43A1 /* ShaderCore.swift */; };
+		BB61A50A28918A3D005F43A1 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = BB61A50928918A3D005F43A1 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		BB61A4FA28917D3C005F43A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB61A4FD28917D3C005F43A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB61A4FF28917D3C005F43A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB61A50528917FC4005F43A1 /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
+		BB61A507289180BC005F43A1 /* ShaderCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderCore.swift; sourceTree = "<group>"; };
+		BB61A50928918A3D005F43A1 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		BB61A4F028917D3A005F43A1 /* ComputeShader */ = {
 			isa = PBXGroup;
 			children = (
+				BB61A50928918A3D005F43A1 /* Shader.metal */,
 				BB61A4F128917D3A005F43A1 /* AppDelegate.swift */,
 				BB61A4F328917D3A005F43A1 /* SceneDelegate.swift */,
 				BB61A4F528917D3A005F43A1 /* ViewController.swift */,
+				BB61A50528917FC4005F43A1 /* Renderer.swift */,
+				BB61A507289180BC005F43A1 /* ShaderCore.swift */,
 				BB61A4F728917D3A005F43A1 /* Main.storyboard */,
 				BB61A4FA28917D3C005F43A1 /* Assets.xcassets */,
 				BB61A4FC28917D3C005F43A1 /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB61A50A28918A3D005F43A1 /* Shader.metal in Sources */,
+				BB61A50628917FC4005F43A1 /* Renderer.swift in Sources */,
 				BB61A4F628917D3A005F43A1 /* ViewController.swift in Sources */,
 				BB61A4F228917D3A005F43A1 /* AppDelegate.swift in Sources */,
+				BB61A508289180BC005F43A1 /* ShaderCore.swift in Sources */,
 				BB61A4F428917D3A005F43A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
