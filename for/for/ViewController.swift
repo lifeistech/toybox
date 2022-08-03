@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         didSet {
             var menuItems = [UIAction]()
             for transportation in Transportation.allCases {
-                menuItems.append(UIAction(title: transportation.title, image: transportation.image) { _ in
-                    self.transportationLabel.text = "\(transportation.title)が選択されました"
+                menuItems.append(UIAction(title: transportation.rawValue) { _ in
+                    self.transportationLabel.text = "\(transportation.rawValue)が選択されました"
                 })
             }
-            menuButton.menu = UIMenu(title: "画像を選択", image: nil, children: menuItems)
+            menuButton.menu = UIMenu(title: "選択", image: nil, children: menuItems)
             menuButton.showsMenuAsPrimaryAction = true
         }
     }
@@ -27,12 +27,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         for i in 1...10{
-            print(i)
+            print("i >> \(i)")
         }
         
         let numbers = ["a", "b", "c", "d", "e"]
         numbers.forEach {
-            print($0)
+            print("i >> \($0)")
         }
     }
 
