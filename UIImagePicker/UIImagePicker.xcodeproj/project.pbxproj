@@ -24,6 +24,7 @@
 		77CE32CC289A873F00C0ED0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77CE32CF289A873F00C0ED0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77CE32D1289A873F00C0ED0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CE32D7289A879200C0ED0A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		77CE32B7289A873E00C0ED0A = {
 			isa = PBXGroup;
 			children = (
+				77CE32D7289A879200C0ED0A /* README.md */,
 				77CE32C2289A873E00C0ED0A /* UIImagePicker */,
 				77CE32C1289A873E00C0ED0A /* Products */,
 			);
