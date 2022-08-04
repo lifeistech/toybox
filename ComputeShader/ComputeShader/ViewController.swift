@@ -16,9 +16,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         renderer = Renderer(functionName: "count")
-        
         let metalViewFrame = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         let metalView = MTKView(frame: metalViewFrame, device: ShaderCore.device)
         metalView.colorPixelFormat = .bgra8Unorm
@@ -26,7 +24,6 @@ class ViewController: UIViewController {
         metalView.drawableSize = metalViewFrame.size
         metalView.delegate = renderer
         self.view.addSubview(metalView)
-        
         self.view.sendSubviewToBack(metalView)
     }
     

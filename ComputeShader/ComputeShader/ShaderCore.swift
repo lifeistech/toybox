@@ -18,5 +18,4 @@ final class ShaderCore {
     public static var commandQueue: MTLCommandQueue = {
         return ShaderCore.device.makeCommandQueue()!
     }()
-    
 }
