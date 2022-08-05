@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //force unwrapを行うと、numberがnilの場合はクラッシュします
     @IBAction func forceUnwrap() {
         resultLabel.text = String(number!)
     }
