@@ -30,7 +30,7 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         cell.contentConfiguration = UIHostingConfiguration {
-            ContentCell(title: "\(indexPath.row)🦄🦄🦄🦄🦄🦄")
+            ContentCell(title: "\(indexPath.row)🦄🤯👾", subTitle: "subtitle", bodyText: "Lorem ipsum dolor sit amet, consectetur ")
         }
         return cell
     }

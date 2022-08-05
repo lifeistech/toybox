@@ -9,35 +9,28 @@ import SwiftUI
 
 struct ContentCell: View {
     var title: String
-    @State var isStared = false
+    var subTitle: String
+    var bodyText: String
     var body: some View {
-        HStack {
+        VStack(alignment: .leading, spacing: 8) {
             Text(title)
-                .font(.title2)
-            Spacer()
-            if isStared {
-                Button() {
-                    isStared = false
-                    print("unstared")
-                } label: {
-                    Image(systemName: "star.fill")
-                        .font(.title2)
-                }
-            } else {
-                Button() {
-                    isStared = true
-                    print("stared")
-                } label: {
-                    Image(systemName: "star")
-                        .font(.title2)
-                }
+                .font(.title)
+                .bold()
+            HStack {
+                Text(subTitle)
+                    .font(.title3)
+                Text(Date().formatted())
+                    .font(.footnote)
+                    .foregroundColor(.gray)
+                Spacer()
             }
-        }.frame(minHeight: 44)
+            Text(bodyText)
+        }.padding()
     }
 }
 
 struct ContentCell_Previews: PreviewProvider {
     static var previews: some View {
-        ContentCell(title: "TITLE SAMPLE")
+        ContentCell(title: "TITLE", subTitle: "SUBTITLE", bodyText: "Lorem ipsum dolor sit amet,")
     }
 }
