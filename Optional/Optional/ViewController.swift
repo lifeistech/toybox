@@ -10,6 +10,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    @IBAction func switchNilAndNotNil(sender: UISwitch) {
+        if sender.isOn {
+            number = 10
+        } else {
+            number = nil
+        }
+    }
+    
     @IBAction func forceUnwrap() {
         resultLabel.text = String(number!)
     }
@@ -32,14 +40,6 @@ class ViewController: UIViewController {
     
     @IBAction func defaultValue() {
         resultLabel.text = String(number ?? 0)
-    }
-    
-    @IBAction func switchNilAndSome(sender: UISwitch) {
-        if sender.isOn {
-            number = 10
-        } else {
-            number = nil
-        }
     }
 }
 
