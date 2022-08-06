@@ -13,6 +13,10 @@
 		B4FC83DA289A97170068B14D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FC83D8289A97170068B14D /* Main.storyboard */; };
 		B4FC83DC289A97180068B14D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FC83DB289A97180068B14D /* Assets.xcassets */; };
 		B4FC83DF289A97180068B14D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FC83DD289A97180068B14D /* LaunchScreen.storyboard */; };
+		B4FC83F1289D108B0068B14D /* CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC83F0289D108B0068B14D /* CollectionViewExtension.swift */; };
+		B4FC83F5289D10BA0068B14D /* CollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC83F4289D10BA0068B14D /* CollectionViewCellDelegate.swift */; };
+		B4FC83F8289D11E50068B14D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC83F6289D11E50068B14D /* CollectionViewCell.swift */; };
+		B4FC83F9289D11E50068B14D /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FC83F7289D11E50068B14D /* CollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B4FC83DB289A97180068B14D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FC83DE289A97180068B14D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FC83E0289A97180068B14D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4FC83F0289D108B0068B14D /* CollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewExtension.swift; path = Assets.xcassets/CollectionViewExtension.swift; sourceTree = "<group>"; };
+		B4FC83F4289D10BA0068B14D /* CollectionViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		B4FC83F6289D11E50068B14D /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B4FC83F7289D11E50068B14D /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				B4FC83DB289A97180068B14D /* Assets.xcassets */,
 				B4FC83DD289A97180068B14D /* LaunchScreen.storyboard */,
 				B4FC83E0289A97180068B14D /* Info.plist */,
+				B4FC83F0289D108B0068B14D /* CollectionViewExtension.swift */,
+				B4FC83F4289D10BA0068B14D /* CollectionViewCellDelegate.swift */,
+				B4FC83F6289D11E50068B14D /* CollectionViewCell.swift */,
+				B4FC83F7289D11E50068B14D /* CollectionViewCell.xib */,
 			);
 			path = delegate;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				B4FC83DF289A97180068B14D /* LaunchScreen.storyboard in Resources */,
 				B4FC83DC289A97180068B14D /* Assets.xcassets in Resources */,
+				B4FC83F9289D11E50068B14D /* CollectionViewCell.xib in Resources */,
 				B4FC83DA289A97170068B14D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4FC83F5289D10BA0068B14D /* CollectionViewCellDelegate.swift in Sources */,
 				B4FC83D7289A97170068B14D /* ViewController.swift in Sources */,
+				B4FC83F8289D11E50068B14D /* CollectionViewCell.swift in Sources */,
 				B4FC83D3289A97170068B14D /* AppDelegate.swift in Sources */,
+				B4FC83F1289D108B0068B14D /* CollectionViewExtension.swift in Sources */,
 				B4FC83D5289A97170068B14D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
