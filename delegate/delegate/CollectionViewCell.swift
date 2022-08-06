@@ -14,14 +14,13 @@ class CollectionViewCell: UICollectionViewCell {
     
     var delegate: CollectionViewCellDelegate?
 
-    var cellDone: (()->Void)?
+    var cellDone: (() -> Void)?
 
     override func awakeFromNib() {
         super.awakeFromNib()
         fruitButton.layer.masksToBounds = true
         fruitButton.layer.cornerRadius = 5
     }
-    
 
     @IBAction func buttonTapAction(_ sender: Any) {
         cellDone?()
