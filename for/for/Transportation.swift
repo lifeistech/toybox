@@ -1,5 +1,4 @@
 import Foundation
-import UIKit
 
 enum Transportation: String, CaseIterable {
     case bus
