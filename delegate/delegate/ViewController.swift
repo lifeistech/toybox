@@ -11,8 +11,20 @@ class ViewController: UIViewController {
     
     let fruitsList: [String] = ["りんご🍎", "ぶどう🍇", "みかん🍊", "いちご🍓", "さくらんぼ🍒"]
 
-    @IBOutlet weak var fruitsCollectionView: UICollectionView!
-    @IBOutlet weak var collectionViewFlowLayout: UICollectionViewFlowLayout!
+    @IBOutlet var fruitsCollectionView: UICollectionView! {
+        didSet {
+            fruitsCollectionView.delegate = self
+            fruitsCollectionView.dataSource = self
+            fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: CELL_IDENTIFIER)
+        }
+    }
+    
+    @IBOutlet var collectionViewFlowLayout: UICollectionViewFlowLayout! {
+        didSet {
+            collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 50)
+            
+        }
+    }
     
     @IBOutlet var resultLabel: UILabel!
     
@@ -21,10 +33,5 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        fruitsCollectionView.delegate = self
-        fruitsCollectionView.dataSource = self
-        fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: CELL_IDENTIFIER)
-        collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 50)
     }
 }

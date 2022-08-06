@@ -9,8 +9,13 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var fruitLabel: UILabel!
-    @IBOutlet weak var fruitButton: UIButton!
+    @IBOutlet var fruitLabel: UILabel!
+    @IBOutlet var fruitButton: UIButton! {
+        didSet {
+            fruitButton.layer.masksToBounds = true
+            fruitButton.layer.cornerRadius = 8
+        }
+    }
     
     var delegate: CollectionViewCellDelegate?
 
@@ -18,8 +23,6 @@ class CollectionViewCell: UICollectionViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        fruitButton.layer.masksToBounds = true
-        fruitButton.layer.cornerRadius = 5
     }
 
     @IBAction func buttonTapAction(_ sender: Any) {
