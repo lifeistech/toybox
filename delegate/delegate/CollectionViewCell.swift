@@ -25,8 +25,8 @@ class CollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    @IBAction func buttonTapAction(_ sender: Any) {
+    @IBAction func buttonPressed(_ sender: Any) {
         cellDone?()
-        delegate?.buttonTapAction()
+        delegate?.buttonPressed()
     }
 }

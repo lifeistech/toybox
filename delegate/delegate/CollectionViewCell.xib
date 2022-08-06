@@ -27,7 +27,7 @@
                         <state key="normal" title="Button"/>
                         <buttonConfiguration key="configuration" style="filled" title="Button"/>
                         <connections>
-                            <action selector="buttonTapAction:" destination="gTV-IL-0wX" eventType="touchUpInside" id="hNO-Ly-VIA"/>
+                            <action selector="buttonPressed:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ESQ-c5-jnD"/>
                         </connections>
                     </button>
                 </subviews>

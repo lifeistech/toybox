@@ -6,5 +6,5 @@
 //
 
 protocol CollectionViewCellDelegate {
-    func buttonTapAction()
+    func buttonPressed()
 }

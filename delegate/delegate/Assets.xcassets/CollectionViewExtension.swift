@@ -30,7 +30,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 }
 
 extension ViewController: CollectionViewCellDelegate {
-    func buttonTapAction() {
+    func buttonPressed() {
         if let selectedCell = selectedCellIndex {
             resultLabel.text = "\(fruitsList[selectedCell.row])が選択されました"
         }
