@@ -28,4 +28,3 @@ enum Hours: CaseIterable {
         }
     }
 }
-
