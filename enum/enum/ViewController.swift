@@ -9,7 +9,7 @@ class ViewController: UIViewController {
             var menuItems = [UIAction]()
             //選択によって画像を変更
             for hour in Hours.allCases {
-                menuItems.append(UIAction(title: hour.title, image: hour.image) {[weak self] _ in
+                menuItems.append(UIAction(title: hour.title, image: hour.image) { [weak self] _ in
                     self?.hourImageView.image = hour.image
                     self?.hourImageView.tintColor = .systemPink
                 })
