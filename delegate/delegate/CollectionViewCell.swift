@@ -18,15 +18,14 @@ class CollectionViewCell: UICollectionViewCell {
     }
     
     var delegate: CollectionViewCellDelegate?
-
-    var cellDone: (() -> Void)?
+    
+    var index: Int = 0
 
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
-        cellDone?()
-        delegate?.buttonPressed()
+        delegate?.buttonPressed(indexPath: index)
     }
 }
