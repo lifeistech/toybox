@@ -19,13 +19,13 @@ class CollectionViewCell: UICollectionViewCell {
     
     var delegate: CollectionViewCellDelegate?
     
-    var index: Int = 0
+    var index: IndexPath?
 
     override func awakeFromNib() {
         super.awakeFromNib()
     }
 
     @IBAction func buttonPressed(_ sender: Any) {
-        delegate?.buttonPressed(indexPath: index)
+        delegate?.buttonPressed(indexPath: index!)
     }
 }

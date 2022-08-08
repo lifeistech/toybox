@@ -20,7 +20,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! CollectionViewCell
         cell.delegate = self
-        cell.index = indexPath.row
+        cell.index = indexPath
         cell.fruitLabel.text = "\(fruitsList[indexPath.row])"
         
         return cell
@@ -28,7 +28,7 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
 }
 
 extension ViewController: CollectionViewCellDelegate {
-    func buttonPressed(indexPath: Int) {
-        resultLabel.text = "\(fruitsList[indexPath])が選択されました"
+    func buttonPressed(indexPath: IndexPath) {
+        resultLabel.text = "\(fruitsList[indexPath.row])が選択されました"
     }
 }

@@ -21,14 +21,13 @@ class ViewController: UIViewController {
     
     @IBOutlet var collectionViewFlowLayout: UICollectionViewFlowLayout! {
         didSet {
-            collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 50)
+            collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 44)
         }
     }
     
     @IBOutlet var resultLabel: UILabel!
     
     let cellId = "CustomCell"
-    var selectedCellIndex: IndexPath?
 
     override func viewDidLoad() {
         super.viewDidLoad()
