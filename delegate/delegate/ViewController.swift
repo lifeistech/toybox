@@ -15,20 +15,19 @@ class ViewController: UIViewController {
         didSet {
             fruitsCollectionView.delegate = self
             fruitsCollectionView.dataSource = self
-            fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: CELL_IDENTIFIER)
+            fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: cellId)
         }
     }
     
     @IBOutlet var collectionViewFlowLayout: UICollectionViewFlowLayout! {
         didSet {
             collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 50)
-            
         }
     }
     
     @IBOutlet var resultLabel: UILabel!
     
-    let CELL_IDENTIFIER = "CustomCell"
+    let cellId = "CustomCell"
     var selectedCellIndex: IndexPath?
 
     override func viewDidLoad() {
