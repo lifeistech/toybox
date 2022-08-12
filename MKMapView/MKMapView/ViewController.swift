@@ -16,8 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+        // 地図の表示範囲を指定
         let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
-        let region = MKCoordinateRegion(center: CLLocationCoordinate2DMake(35.6466594,139.7351873), span:span)
+        // 表示する緯度、経度を指定
+        let coordinate = CLLocationCoordinate2DMake(35.6466594,139.7351873)
+        // spanとcoordinateからRegionオブジェクトを作成
+        let region = MKCoordinateRegion(center: coordinate, span:span)
+        // MapViewに適用
         mapView.region = region
     }
 
