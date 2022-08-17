@@ -32,4 +32,3 @@ class ViewController: UIViewController {
         label.text = String(Int(renderer!.args[1]))
     }
 }
-
