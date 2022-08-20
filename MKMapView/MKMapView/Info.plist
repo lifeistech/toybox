@@ -21,5 +21,9 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>位置情報を許可してください</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>位置情報を許可してください</string>
 </dict>
 </plist>
