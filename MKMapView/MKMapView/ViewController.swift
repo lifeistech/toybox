@@ -18,14 +18,20 @@ class ViewController: UIViewController {
         
         // 地図の表示範囲を指定
         let span = MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01)
-        // 表示する緯度、経度を指定
-        let coordinate = CLLocationCoordinate2DMake(35.6466594,139.7351873)
+        // 表示する中心の緯度、経度を指定
+        let coordinate = CLLocationCoordinate2D(latitude: 35.6431, longitude: 139.7342)
         // spanとcoordinateからRegionオブジェクトを作成
         let region = MKCoordinateRegion(center: coordinate, span:span)
         // MapViewに適用
         mapView.region = region
+        
+        // pinを作成
+        let pin = MKPointAnnotation()
+        // pinのラベルを指定
+        pin.title = "Life is Tech! 白金高輪校"
+        // pinの座標を指定
+        pin.coordinate = CLLocationCoordinate2D(latitude: 35.6466, longitude: 139.7351)
+        // MapViewにpinを追加
+        mapView.addAnnotation(pin)
     }
-
-
 }
-
