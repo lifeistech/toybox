@@ -13,6 +13,7 @@
 		7783F3352890328400856161 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7783F3332890328400856161 /* Main.storyboard */; };
 		7783F3372890328500856161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7783F3362890328500856161 /* Assets.xcassets */; };
 		7783F33A2890328500856161 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7783F3382890328500856161 /* LaunchScreen.storyboard */; };
+		B43FE4AC28B3A812005B0BB8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B43FE4AB28B3A812005B0BB8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7783F3362890328500856161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7783F3392890328500856161 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7783F33B2890328500856161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43FE4AB28B3A812005B0BB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		7783F3212890328400856161 = {
 			isa = PBXGroup;
 			children = (
+				B43FE4AB28B3A812005B0BB8 /* README.md */,
 				7783F32C2890328400856161 /* UICalendarView */,
 				7783F32B2890328400856161 /* Products */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				7783F33A2890328500856161 /* LaunchScreen.storyboard in Resources */,
 				7783F3372890328500856161 /* Assets.xcassets in Resources */,
+				B43FE4AC28B3A812005B0BB8 /* README.md in Resources */,
 				7783F3352890328400856161 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
