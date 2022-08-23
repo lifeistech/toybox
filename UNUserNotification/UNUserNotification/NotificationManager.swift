@@ -4,7 +4,7 @@ import NotificationCenter
 
 class NotificationManager {
     
-    //アラートウィジェットで選択した通知のリクエストを登録
+    //アラートで選択した通知のリクエストを登録
     static func setTimeIntervalNotification(title: String, timeInterval: TimeInterval) {
         UserNotifications.UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]) { granted, error in
             if granted {
@@ -20,7 +20,7 @@ class NotificationManager {
         }
     }
     
-    //アラートウィジェットで設定した日時の通知のリクエストを登録
+    //アラートで設定した日時の通知のリクエストを登録
     static func setCalendarNotification(title: String, date: Date) {
         UserNotifications.UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]) { granted, error in
             if granted {
@@ -36,7 +36,7 @@ class NotificationManager {
         }
     }
     
-    //アラートウィジェットで設定した場所の通知のリクエストを登録
+    //アラートで設定した場所の通知のリクエストを登録
     static func setLocationNotification(title: String, coordinate: CLLocationCoordinate2D) {
         UserNotifications.UNUserNotificationCenter.current().requestAuthorization(options:[.badge, .alert, .sound]) { granted, error in
             if granted {

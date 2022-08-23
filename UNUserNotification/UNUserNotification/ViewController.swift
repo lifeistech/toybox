@@ -41,7 +41,7 @@ class ViewController: UIViewController {
     //ボタンをタップしたときに表示されるアラート
     @IBAction func setLocationNotification() {
         let locations = [
-            //場所情報を追加
+            //位置情報を追加
             ("Life is Tech! 東京オフィス", CLLocationCoordinate2D(latitude: 35.6469, longitude: 139.735869)),
             ("Life is Tech! 大阪オフィス", CLLocationCoordinate2D(latitude: 34.70493918, longitude: 135.50383534))
         ]
