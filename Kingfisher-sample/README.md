@@ -10,3 +10,6 @@ Kingfisherは、WebからURLで表示した画像を一度ダウンロードし�
 3. +ボタンを押し、`https://github.com/onevcat/Kingfisher`で検索します
 4. Kingfisherを選択し、add packageをクリックします
 5. ViewConrtoller.swiftで`import Kingfisher`でimportすることができます
+
+## 使用ライブラリ
+- [Kingfisher](https://github.com/onevcat/Kingfisher)
