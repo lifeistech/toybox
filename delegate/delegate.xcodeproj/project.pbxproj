@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B44C84FF28B3D7B100148C70 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B44C84FE28B3D7B100148C70 /* README.md */; };
 		B4F9776628A0C3650054DB54 /* ViewController+CollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9776528A0C3650054DB54 /* ViewController+CollectionViewDelegate.swift */; };
 		B4FC83D3289A97170068B14D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC83D2289A97170068B14D /* AppDelegate.swift */; };
 		B4FC83D5289A97170068B14D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC83D4289A97170068B14D /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B44C84FE28B3D7B100148C70 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B4F9776528A0C3650054DB54 /* ViewController+CollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+CollectionViewDelegate.swift"; sourceTree = "<group>"; };
 		B4FC83CF289A97170068B14D /* delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = delegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FC83D2289A97170068B14D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		B4FC83C6289A97170068B14D = {
 			isa = PBXGroup;
 			children = (
+				B44C84FE28B3D7B100148C70 /* README.md */,
 				B4FC83D1289A97170068B14D /* delegate */,
 				B4FC83D0289A97170068B14D /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				B4FC83DF289A97180068B14D /* LaunchScreen.storyboard in Resources */,
 				B4FC83DC289A97180068B14D /* Assets.xcassets in Resources */,
+				B44C84FF28B3D7B100148C70 /* README.md in Resources */,
 				B4FC83F9289D11E50068B14D /* CollectionViewCell.xib in Resources */,
 				B4FC83DA289A97170068B14D /* Main.storyboard in Resources */,
 			);
