@@ -7,6 +7,7 @@
 
 import Foundation
 
+//protocolで任せるデリゲートメソッドの定義(ここでは定義のみで処理の実装は行わない)
 protocol CollectionViewCellDelegate: AnyObject {
     func buttonPressed(indexPath: IndexPath)
 }
