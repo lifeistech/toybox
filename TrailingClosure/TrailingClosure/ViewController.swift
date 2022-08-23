@@ -8,7 +8,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    //TrailingClosureを使って記載したアニメーション
     @IBAction func animateWithTrailingClosure() {
+        //最初の引数ラベルanimationsを省略することができる
         UIView.animate(withDuration: 1, delay: 0) {
             self.animationView.center.y += 100
         } completion: { completed in
@@ -16,6 +18,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //Closureを使って記載したアニメーション
     @IBAction func animateWithoutTrailingClosure() {
         UIView.animate(withDuration: 1, delay: 0, animations: {
             self.animationView.center.y -= 100
