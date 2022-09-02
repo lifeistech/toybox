@@ -15,6 +15,11 @@
 
 ![SFSymbol](SFSymbol/SFSymbol.png)
 
+## Speech
+[Speech](https://github.com/lifeistech/toybox/tree/main/Speech)
+
+![Speech](Speech/Speech.png)
+
 ## UIButtonConfiguration
 [UIButtonConfiguration](https://github.com/lifeistech/toybox/tree/main/UIButtonConfiguration)
 
@@ -69,6 +74,16 @@
 [extension](https://github.com/lifeistech/toybox/tree/main/extension)
 
 ![extension](extension/extension.gif)
+
+## for
+[for](https://github.com/lifeistech/toybox/tree/main/for)
+
+![for](for/for.gif)
+
+## if
+[if](https://github.com/lifeistech/toybox/tree/main/if)
+
+![if](if/if.gif)
 
 ## switch
 [switch](https://github.com/lifeistech/toybox/tree/main/switch)
