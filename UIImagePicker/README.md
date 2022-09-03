@@ -18,4 +18,5 @@ UIImagePickerは、端末のカメラで撮影した写真、またはフォト�
 - [extension](https://github.com/lifeistech/toybox/tree/main/extension)
 
 ## 関連
+- [UIButtonConfiguration](https://github.com/lifeistech/toybox/tree/main/UIButtonConfiguration)
 - AVCapturePhotoOutput
