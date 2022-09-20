@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//SwiftUIでCellを実装
 struct ContentCell: View {
     var title: String
     var subTitle: String
@@ -29,6 +30,7 @@ struct ContentCell: View {
     }
 }
 
+//Xcode上のSwiftUIプレビューでのみ表示する内容
 struct ContentCell_Previews: PreviewProvider {
     static var previews: some View {
         ContentCell(title: "TITLE", subTitle: "SUBTITLE", bodyText: "Lorem ipsum dolor sit amet,")

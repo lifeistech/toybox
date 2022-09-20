@@ -9,9 +9,12 @@ import SwiftUI
 import UIKit
 
 class ViewController: UIViewController {
+    //SwiftUIのCellを表示するUICollectionViewを定義
     @IBOutlet var collectionView: UICollectionView! {
         didSet {
+            //CollectionViewCellのインスタンスをCollectionViewにセット
             collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+            //UICollectionViewのdelegateとdataSourceにUIViewControllerをセット
             collectionView.delegate = self
             collectionView.dataSource = self
         }
@@ -23,10 +26,12 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    //UICollectionViewのCellの数を設定
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 20
     }
 
+    //それぞれのCellに中身を表示
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         cell.contentConfiguration = UIHostingConfiguration {
