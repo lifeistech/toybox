@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             //UICollectionViewのdelegateとdataSourceにUIViewControllerをセット
             fruitsCollectionView.delegate = self
             fruitsCollectionView.dataSource = self
-            //CollectionViewCell.xibで作成したセルのレイアウトをCollectionViewにセット
+            //CollectionViewCellのインスタンスをCollectionViewにセット
             fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: cellId)
         }
     }
