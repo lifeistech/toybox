@@ -1,3 +1,18 @@
+# toyboxとは
+Life is Tech! iPhoneアプリプログラミングコースのサンプルコード集プロジェクトです。
+Swiftにはどんな技術があるのか、どんなコードを書けばどのように動くのか見て、触ってみることができます。コードの詰め合わせという意味から、そしてたくさん遊んで欲しいという思いを込めて、おもちゃ箱のtoyboxと名付けられました🎉
+Swiftの機能がコンポーネントごとにtoyとして分かれていて、それぞれXcode Projectが作られています👀  
+
+[Scrapbox](https://scrapbox.io/toybox-ios/)からtoyの一覧・toyの相互関係を見ることができます！
+
+### 使い方
+1. Githubページ中央の`<> Code`ボタンから`Download ZIP`します
+2. ダウンロードしたzipファイルをダブルクリックで展開します
+3. それぞれのtoyがフォルダで分かれているので、見たいtoyのフォルダを開きます
+4. フォルダ内に入っている`.xcodeproj`の拡張子のファイルをダブルクリックするとXcodeが開きます
+5. ダウンロードしたプロジェクトを開くと警告が出る場合がありますが、その場合は`Trust and Open`ボタンを押します
+6. READMEにそのtoyの技術について、概要や実装方法が記載されています
+
 # toybox
 
 ## Codable
@@ -109,5 +124,3 @@ Contributions are more than welcome!
 3. Commit your changes (git commit -m 'Add some feature')
 4. Push to the branch (git push origin hogehoge)
 5. Create new Pull Request
-
-
