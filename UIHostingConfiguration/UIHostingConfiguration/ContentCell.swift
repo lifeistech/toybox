@@ -30,7 +30,7 @@ struct ContentCell: View {
     }
 }
 
-//Xcode上のSwiftUIプレビューでのみ表示する内容
+//Xcode上のXcode Previewでのみ表示するサンプルの内容
 struct ContentCell_Previews: PreviewProvider {
     static var previews: some View {
         ContentCell(title: "TITLE", subTitle: "SUBTITLE", bodyText: "Lorem ipsum dolor sit amet,")

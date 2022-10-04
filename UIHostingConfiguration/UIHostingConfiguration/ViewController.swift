@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     //SwiftUIのCellを表示するUICollectionViewを定義
     @IBOutlet var collectionView: UICollectionView! {
         didSet {
-            //CollectionViewCellのインスタンスをCollectionViewにセット
+            //CollectionViewで使用するセルをregister(_:forCellWithReuseIdentifier:)メソッドで登録
             collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
             //UICollectionViewのdelegateとdataSourceにUIViewControllerをセット
             collectionView.delegate = self
