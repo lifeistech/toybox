@@ -10,6 +10,7 @@ var a: String?
 ```
 var a: Optional<String>
 ```
+また、Optional型は値を保持していない可能性があるため、非オプショナル型の変数と同じように扱う事ができません。Optional型の値に対して操作を行う場合は、一度unwrapし、値を取り出す必要があります。
 
 ## 前提知識
 - [if](https://github.com/lifeistech/toybox/tree/main/if)
