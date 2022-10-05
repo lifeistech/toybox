@@ -10,6 +10,20 @@ import UIKit
 enum ColorError: Error {
     case tooLarge
     case negativeNumber
+    case unknown
+}
+
+extension ColorError: LocalizedError {
+    var errorDescription: String? {
+        switch self {
+        case .tooLarge:
+            return "数字が大きすぎます"
+        case .negativeNumber:
+            return "正の数を使用してください"
+        case .unknown:
+            return "謎のエラーです"
+        }
+    }
 }
 
 class ViewController: UIViewController {
@@ -17,6 +31,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
     func setColor(r: CGFloat, g: CGFloat = 1.0, b: CGFloat = 1.0) throws {
         guard r <= 1.0 else {
             throw ColorError.tooLarge
@@ -26,33 +41,23 @@ class ViewController: UIViewController {
         }
         self.view.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1.0)
     }
+    
+    func showAlert(message: String) {
+        let alert = UIAlertController(title: "色を作れません", message: message, preferredStyle: .alert)
+        let ok = UIAlertAction(title: "OK", style: .default) { action in
+            self.dismiss(animated: true, completion: nil)
+        }
+        alert.addAction(ok)
+        present(alert, animated: true, completion: nil)
+    }
+    
     @IBAction func setFromButton(_ sender: UIButton) {
+        randomNumber = CGFloat.random(in: -0.5..<1.5)
         do {
             try setColor(r: randomNumber)
-        } catch ColorError.tooLarge {
-            let alert = UIAlertController(title: "色を作れません", message: "数字が大きすぎます", preferredStyle: .alert)
-            let ok = UIAlertAction(title: "OK", style: .default) { action in
-                self.dismiss(animated: true, completion: nil)
-            }
-            alert.addAction(ok)
-            present(alert, animated: true, completion: nil)
-        } catch ColorError.negativeNumber {
-            let alert = UIAlertController(title: "色を作れません", message: "正の数を使用してください", preferredStyle: .alert)
-            let ok = UIAlertAction(title: "OK", style: .default) { action in
-                self.dismiss(animated: true, completion: nil)
-            }
-            alert.addAction(ok)
-            present(alert, animated: true, completion: nil)
         } catch {
-            let alert = UIAlertController(title: "色を作れません", message: "謎のエラーです", preferredStyle: .alert)
-            let ok = UIAlertAction(title: "OK", style: .default) { action in
-                self.dismiss(animated: true, completion: nil)
-            }
-            alert.addAction(ok)
-            present(alert, animated: true, completion: nil)
+            showAlert(message: error.localizedDescription)
         }
-        randomNumber = CGFloat.random(in: -0.5..<1.5)
         sender.setTitle("r = " + String(format: "%.2f", randomNumber), for: .normal)
     }
 }
-
