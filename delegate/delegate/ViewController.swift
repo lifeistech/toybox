@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             //UICollectionViewのdelegateとdataSourceにUIViewControllerをセット
             fruitsCollectionView.delegate = self
             fruitsCollectionView.dataSource = self
-            //CollectionViewCellのインスタンスをCollectionViewにセット
+            //CollectionViewで使用するセルをregister(_:forCellWithReuseIdentifier:)メソッドで登録
             fruitsCollectionView.register(UINib(nibName: "CollectionViewCell", bundle: nil), forCellWithReuseIdentifier: cellId)
         }
     }
@@ -25,7 +25,6 @@ class ViewController: UIViewController {
     //CollectionViewのグリッドレイアウトのサイズを設定
     @IBOutlet var collectionViewFlowLayout: UICollectionViewFlowLayout! {
         didSet {
-            //セルのwidthに画面サイズ、heightに44を反映
             collectionViewFlowLayout.estimatedItemSize = CGSize(width: UIScreen.main.bounds.size.width, height: 44)
         }
     }
