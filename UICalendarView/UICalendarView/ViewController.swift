@@ -2,24 +2,23 @@ import UIKit
 
 class ViewController: UIViewController {
     //UICalendarViewを定義
-    var calendarView: UICalendarView {
-        let calendarView = UICalendarView(frame: view.frame)
-        let gregorianCalendar = Calendar(identifier: .gregorian)
-        calendarView.calendar = gregorianCalendar
-        calendarView.locale = Locale(identifier: "ja_JP")
-        //カレンダーのフォントを変更
-        calendarView.fontDesign = .rounded
-        //UICalendarViewのdelegateにUIViewControllerをセット
-        calendarView.delegate = self
-        //選択できる日数を1日に設定
-        calendarView.selectionBehavior = UICalendarSelectionSingleDate(delegate: self)
-        return calendarView
-    }
+    var calendarView: UICalendarView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        calendarView = UICalendarView(frame: view.frame)
+        let gregorianCalendar = Calendar(identifier: .gregorian)
+        calendarView?.calendar = gregorianCalendar
+        calendarView?.locale = Locale(identifier: "ja_JP")
+        //カレンダーのフォントを変更
+        calendarView?.fontDesign = .rounded
+        //UICalendarViewのdelegateにUIViewControllerをセット
+        calendarView?.delegate = self
+        //選択できる日数を1日に設定
+        calendarView?.selectionBehavior = UICalendarSelectionSingleDate(delegate: self)
         //定義したカレンダービューを表示
-        view.addSubview(calendarView)
+        view.addSubview(calendarView!)
     }
 }
 
