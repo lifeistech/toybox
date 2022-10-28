@@ -20,22 +20,22 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="767"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="jdf-No-HcE">
-                                <rect key="frame" x="51" y="831" width="312" height="31"/>
+                                <rect key="frame" x="122.5" y="831" width="169" height="31"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icb-wV-UAV">
-                                        <rect key="frame" x="0.0" y="0.0" width="138.5" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zx-Us-4fO">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="カメラ"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                         <connections>
-                                            <action selector="openCamera" destination="BYZ-38-t0r" eventType="touchUpInside" id="0bU-as-gge"/>
+                                            <action selector="openCamera" destination="BYZ-38-t0r" eventType="touchUpInside" id="zOz-Uo-rlv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a6-vA-Qg5">
-                                        <rect key="frame" x="173.5" y="0.0" width="138.5" height="31"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RHE-ly-lbD">
+                                        <rect key="frame" x="102" y="0.0" width="67" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="フォトライブラリ"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                         <connections>
-                                            <action selector="openPhotoLibrary" destination="BYZ-38-t0r" eventType="touchUpInside" id="14d-YU-fJx"/>
+                                            <action selector="openPhotoLibrary" destination="BYZ-38-t0r" eventType="touchUpInside" id="klt-ZQ-kom"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -53,7 +53,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="6Zx-Us-4fO" id="tV2-JW-PiH"/>
                         <outlet property="imageView" destination="gcj-km-HyQ" id="yc4-Uq-tA2"/>
+                        <outlet property="photoLibraryButton" destination="RHE-ly-lbD" id="lia-5A-Vyt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
