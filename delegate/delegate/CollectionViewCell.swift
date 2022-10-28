@@ -9,6 +9,7 @@ import UIKit
 
 class CollectionViewCell: UICollectionViewCell {
     
+    //カスタムセルのLabelとButton
     @IBOutlet var fruitLabel: UILabel!
     @IBOutlet var fruitButton: UIButton! {
         didSet {
@@ -17,6 +18,7 @@ class CollectionViewCell: UICollectionViewCell {
         }
     }
     
+    //CollectionViewCellDelegateのインスタンスを設定
     var delegate: CollectionViewCellDelegate?
     
     var index: IndexPath?
@@ -25,7 +27,9 @@ class CollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
+    //ここで処理を任せる
     @IBAction func buttonPressed(_ sender: Any) {
+        //デリゲートメソッドbuttonPressedを実行
         delegate?.buttonPressed(indexPath: index!)
     }
 }
