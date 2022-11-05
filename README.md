@@ -25,6 +25,36 @@ Swiftの機能がコンポーネントごとにtoyとして分かれていて、
 
 ![ColorAsset](ColorAsset/ColorAsset.png)
 
+## ComputeShader
+[ComputeShader](https://github.com/lifeistech/toybox/tree/main/ComputeShader)
+
+![ComputeShader](ComputeShader/ComputeShader.gif)
+
+## DoTryCatch
+[DoTryCatch](https://github.com/lifeistech/toybox/tree/main/DoTryCatch)
+
+![DoTryCatch](DoTryCatch/DoTryCatch.png)
+
+## Generics
+[Generics](https://github.com/lifeistech/toybox/tree/main/Generics)
+
+![Generics](Generics/Generics.gif)
+
+## Kingfisher
+[Kingfisher](https://github.com/lifeistech/toybox/tree/main/Kingfisher-sample)
+
+![Kingfisher](Kingfisher-sample/Kingfisher.png)
+
+## MKMapView
+[MKMapView](https://github.com/lifeistech/toybox/tree/main/MKMapView)
+
+![MKMapView](MKMapView/MKMapView.gif)
+
+## Optional
+[Optional](https://github.com/lifeistech/toybox/tree/main/Optional)
+
+![Optional](Optional/Optional.gif)
+
 ## SFSymbol
 [SFSymbol](https://github.com/lifeistech/toybox/tree/main/SFSymbol)
 
@@ -35,15 +65,40 @@ Swiftの機能がコンポーネントごとにtoyとして分かれていて、
 
 ![Speech](Speech/Speech.png)
 
+## SwiftCharts
+[SwiftCharts](https://github.com/lifeistech/toybox/tree/main/SwiftCharts)
+
+![SwiftCharts](SwiftCharts/SwiftCharts.png)
+
+## TrailingClosure
+[TrailingClosure](https://github.com/lifeistech/toybox/tree/main/TrailingClosure)
+
+![TrailingClosure](TrailingClosure/TrailingClosure.gif)
+
 ## UIButtonConfiguration
 [UIButtonConfiguration](https://github.com/lifeistech/toybox/tree/main/UIButtonConfiguration)
 
 ![UIButtonConfiguration](UIButtonConfiguration/UIButtonConfiguration.gif)
 
+## UICalendarView
+[UICalendarView](https://github.com/lifeistech/toybox/tree/main/UICalendarView)
+
+![UICalendarView](UICalendarView/UICalendarView.gif)
+
 ## UIFont
 [UIFont](https://github.com/lifeistech/toybox/tree/main/UIFont)
 
 ![UIFont](UIFont/UIFont.png)
+
+## UIHostingConfiguration
+[UIHostingConfiguration](https://github.com/lifeistech/toybox/tree/main/UIHostingConfiguration)
+
+![UIHostingConfiguration](UIHostingConfiguration/UIHostingConfiguration.gif)
+
+## UIImagePicker
+[UIImagePicker](https://github.com/lifeistech/toybox/tree/main/UIImagePicker)
+
+![UIImagePicker](UIImagePicker/UIImagePicker.gif)
 
 ## UIMenu
 [UIMenu](https://github.com/lifeistech/toybox/tree/main/UIMenu)
@@ -80,10 +135,30 @@ Swiftの機能がコンポーネントごとにtoyとして分かれていて、
 
 ![UITabBarConrtoller](UITabBarController/UITabBarController.gif)
 
+## UIVisualEffectView
+[UIVisualEffectView](https://github.com/lifeistech/toybox/tree/main/UIVisualEffectView)
+
+![UIVisualEffectView](UIVisualEffectView/UIVisualEffectView.png)
+
+## UNUserNotification
+[UNUserNotification](https://github.com/lifeistech/toybox/tree/main/UNUserNotification)
+
+![UNUserNotification](UNUserNotification/UNUserNotification.gif)
+
 ## animation
 [animation](https://github.com/lifeistech/toybox/tree/main/animation)
 
 ![animation](animation/animation.gif)
+
+## delegate
+[delegate](https://github.com/lifeistech/toybox/tree/main/delegate)
+
+![delegate](delegate/delegate.gif)
+
+## enum
+[enum](https://github.com/lifeistech/toybox/tree/main/enum)
+
+![enum](enum/enum.gif)
 
 ## extension
 [extension](https://github.com/lifeistech/toybox/tree/main/extension)
@@ -105,20 +180,20 @@ Swiftの機能がコンポーネントごとにtoyとして分かれていて、
 
 ![switch](switch/switch.gif)
 
----------------------------------------
-
-## コントリビューション
+# コントリビューション
 コントリビューションは大歓迎です。
 
+## コントリビューションの手順
 1. Forkする
 2. 自分のブランチを作成する (git checkout -b feature/hogehoge)
 3. 変更をコミットする (git commit -m 'Add some feature')
 4. ブランチにプッシュする(git push origin hogehoge)
 5. 新しいPull Requestを作成する
 
-## Contribution
+# Contribution
 Contributions are more than welcome!
 
+## How to Contribute
 1. Fork it
 2. Create your feature branch (git checkout -b featyre/hogehoge)
 3. Commit your changes (git commit -m 'Add some feature')
