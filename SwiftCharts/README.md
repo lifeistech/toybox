@@ -1,4 +1,3 @@
-
 # SwiftCharts
 ![SwiftCharts](SwiftCharts.png)
 
