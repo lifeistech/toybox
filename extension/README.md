@@ -2,7 +2,7 @@
 ![extension](extension.gif)
 
 ## 概要
-extensionは、"拡張する"という意味で、このコードを書くことでUILabelやIntなどの元から用意されているclassや自分で定義したclass, structに対して機能を拡張します。以下のようにextensionにwhereを付加した場合、型が条件を満たす場合のみ有効になる定義を追加することもできます。
+extensionは、拡張するという意味で、このコードを書くことでUILabelやIntなどの元から用意されているclassや自分で定義したclass, structに対して機能を拡張します。以下のようにextensionにwhereを付加した場合、型が条件を満たす場合のみ有効になる定義を追加することもできます。
 ```
 //要素がIntの配列の場合のみ有効になる定義
 extension Array where Element == Int {
