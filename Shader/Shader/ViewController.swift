@@ -6,14 +6,15 @@
 //
 
 import UIKit
+import MetalKit
 
 class ViewController: UIViewController {
-
+    var renderer: Renderer = Renderer()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let metalView = MTKView(frame: view.bounds, device: ShaderCore.device)
+        metalView.colorPixelFormat = ConstantParameters.pixelFormat
+        metalView.delegate = renderer
+        view.addSubview(metalView)
     }
-
-
 }
-
