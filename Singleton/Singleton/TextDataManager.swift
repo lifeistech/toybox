@@ -7,14 +7,12 @@
 
 import Foundation
 
-//MARK: SegueStartViewControllerとSegueDestinationViewControllerのデータを管理します
-class TextDataModel {
+//MARK: ユーザーから入力されたデータを保存する・表示するためにデータを提供する、といった役割を担っています。
+//MARK: 例：SegueStartViewControllerで値を保存、TextHistoryTableViewControllerで全て表示
+class TextDataManager {
     
     //これがシングルトンと呼ばれるものです。TextDataModel.sharedとすることで、どこからでも同じクラスにアクセスすることができます。
-    static let shared = TextDataModel()
-    
-    //UserDefaultsのKeyなど、何回も用いるStringは、編集できない定数に保管するなどしておくとタイプミスが減り便利です
-    private let textHistoryKey = "inputText"
+    static let shared = TextDataManager()
     
     //保管しているデータなども、変な操作がされないようにprivateをつけておくと良いです
     private var allHistory = [String]()

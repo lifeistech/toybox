@@ -14,7 +14,7 @@
 		6DBB588D2B7CE268003743D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DBB588B2B7CE268003743D4 /* LaunchScreen.storyboard */; };
 		6DBB58952B7CE3E4003743D4 /* SegueStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB58942B7CE3E4003743D4 /* SegueStartViewController.swift */; };
 		6DBB58972B7CE3F7003743D4 /* SegueDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB58962B7CE3F7003743D4 /* SegueDestinationViewController.swift */; };
-		6DBB58992B7CE61F003743D4 /* TextDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB58982B7CE61F003743D4 /* TextDataModel.swift */; };
+		6DBB58992B7CE61F003743D4 /* TextDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBB58982B7CE61F003743D4 /* TextDataManager.swift */; };
 		6DE78F7C2B80A2A8002349F7 /* TextHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE78F7B2B80A2A8002349F7 /* TextHistoryTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +28,7 @@
 		6DBB588E2B7CE268003743D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DBB58942B7CE3E4003743D4 /* SegueStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueStartViewController.swift; sourceTree = "<group>"; };
 		6DBB58962B7CE3F7003743D4 /* SegueDestinationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDestinationViewController.swift; sourceTree = "<group>"; };
-		6DBB58982B7CE61F003743D4 /* TextDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDataModel.swift; sourceTree = "<group>"; };
+		6DBB58982B7CE61F003743D4 /* TextDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDataManager.swift; sourceTree = "<group>"; };
 		6DBB589A2B7CE8F3003743D4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6DE78F7B2B80A2A8002349F7 /* TextHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHistoryTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +47,7 @@
 		6DBB58742B7CE266003743D4 = {
 			isa = PBXGroup;
 			children = (
+				6DBB589A2B7CE8F3003743D4 /* README.md */,
 				6DBB587F2B7CE267003743D4 /* Singleton */,
 				6DBB587E2B7CE267003743D4 /* Products */,
 			);
@@ -63,14 +64,13 @@
 		6DBB587F2B7CE267003743D4 /* Singleton */ = {
 			isa = PBXGroup;
 			children = (
-				6DBB589A2B7CE8F3003743D4 /* README.md */,
 				6DBB58802B7CE267003743D4 /* AppDelegate.swift */,
 				6DBB58822B7CE267003743D4 /* SceneDelegate.swift */,
 				6DBB58862B7CE267003743D4 /* Main.storyboard */,
 				6DE78F7B2B80A2A8002349F7 /* TextHistoryTableViewController.swift */,
 				6DBB58942B7CE3E4003743D4 /* SegueStartViewController.swift */,
 				6DBB58962B7CE3F7003743D4 /* SegueDestinationViewController.swift */,
-				6DBB58982B7CE61F003743D4 /* TextDataModel.swift */,
+				6DBB58982B7CE61F003743D4 /* TextDataManager.swift */,
 				6DBB58892B7CE268003743D4 /* Assets.xcassets */,
 				6DBB588B2B7CE268003743D4 /* LaunchScreen.storyboard */,
 				6DBB588E2B7CE268003743D4 /* Info.plist */,
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DBB58812B7CE267003743D4 /* AppDelegate.swift in Sources */,
-				6DBB58992B7CE61F003743D4 /* TextDataModel.swift in Sources */,
+				6DBB58992B7CE61F003743D4 /* TextDataManager.swift in Sources */,
 				6DBB58972B7CE3F7003743D4 /* SegueDestinationViewController.swift in Sources */,
 				6DE78F7C2B80A2A8002349F7 /* TextHistoryTableViewController.swift in Sources */,
 				6DBB58832B7CE267003743D4 /* SceneDelegate.swift in Sources */,

@@ -18,8 +18,8 @@ class SegueStartViewController: UIViewController {
     
     @IBAction func goNextView(_ sender: Any) {
         let inputText = inputTextField.text
-        TextDataModel.shared.currentInputText = inputText
-        TextDataModel.shared.saveText()
+        TextDataManager.shared.currentInputText = inputText
+        TextDataManager.shared.saveText()
         
         performSegue(withIdentifier: "toDestinationView", sender: nil)
     }

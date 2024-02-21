@@ -20,6 +20,6 @@ class SegueDestinationViewController: UIViewController {
         super.viewWillAppear(animated)
         
         //シングルトンから得られたデータをラベルに表示します
-        resultLabel.text = TextDataModel.shared.currentInputText
+        resultLabel.text = TextDataManager.shared.currentInputText
     }
 }

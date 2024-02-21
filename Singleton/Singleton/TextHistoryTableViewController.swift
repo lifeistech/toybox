@@ -11,7 +11,7 @@ class TextHistoryTableViewController: UIViewController {
     
     //このように書くことで、allHistoryを呼び出すとgetAllTextHistory()を呼び出し、その結果を返してくれます
     var allHistory: [String] {
-        return TextDataModel.shared.getAllTextHistory()
+        return TextDataManager.shared.getAllTextHistory()
     }
 
     @IBOutlet weak var tableView: UITableView!
