@@ -60,6 +60,11 @@ Swiftの機能がコンポーネントごとにtoyとして分かれていて、
 
 ![SFSymbol](SFSymbol/SFSymbol.png)
 
+## Singleton
+[switch](https://github.com/lifeistech/toybox/tree/main/Singleton)
+
+![switch](Singleton/Singleton.gif)
+
 ## Speech
 [Speech](https://github.com/lifeistech/toybox/tree/main/Speech)
 
