@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--list-->
         <scene sceneID="GiE-cB-VMQ">
             <objects>
                 <viewController id="dFn-k9-1PI" customClass="TextHistoryTableViewController" customModule="Singleton" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,7 +35,7 @@
                         <viewLayoutGuide key="safeArea" id="nWn-lT-7ok"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" selectedImage="list.bullet" catalog="system" id="qNr-0E-zgw"/>
+                    <tabBarItem key="tabBarItem" title="list" image="list.bullet" catalog="system" selectedImage="list.bullet" id="qNr-0E-zgw"/>
                     <connections>
                         <outlet property="tableView" destination="db5-sP-Rhj" id="clT-uF-oJc"/>
                     </connections>
@@ -62,7 +62,7 @@
             </objects>
             <point key="canvasLocation" x="-1045" y="333"/>
         </scene>
-        <!--Item-->
+        <!--save-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="SegueStartViewController" customModule="Singleton" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,7 +92,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" selectedImage="square.and.arrow.down" catalog="system" id="SSJ-cI-iKH"/>
+                    <tabBarItem key="tabBarItem" title="save" image="square.and.arrow.down" catalog="system" selectedImage="square.and.arrow.down" id="SSJ-cI-iKH"/>
                     <connections>
                         <outlet property="inputTextField" destination="mlZ-x9-FeR" id="1ES-uW-uVq"/>
                         <segue destination="We6-k2-ttl" kind="presentation" identifier="toDestinationView" id="X3Z-5n-QaM"/>
@@ -141,7 +141,7 @@
         <image name="list.bullet" catalog="system" width="128" height="87"/>
         <image name="square.and.arrow.down" catalog="system" width="112" height="128"/>
         <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
