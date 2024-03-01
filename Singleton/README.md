@@ -1,4 +1,5 @@
 #  Singleton
+![Singleton](Singleton.gif)
 
 ## 概要
 シングルトン（Singleton）とは、平たく言えば、とあるクラスのインスタンスにどこからでもアクセスできるようになる仕組みです。
